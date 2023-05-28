@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.imagem-redonda {
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.imagem-casa {
+    margin-left: 50px;
+}
+#experiencias h3 {
+    margin-top: 0;
+}
+body {
+    background-color: #f5f5f5;
+    padding: 0px 80px 160px 80px;
+    /* display: inline-block; */
+}
+h1 {
+    box-sizing: border-box;
+    color: rgb(49, 51, 63) ;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: justify;
+    text-size-adjust: 100%;
+    margin-bottom: 100px;
+    padding-top: 80px;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px; /* Tamanho da fonte para telas menores que 768px */
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 18px; /* Tamanho da fonte para telas menores que 480px */
+    }
+}
+@media (max-width: 650px) {
+    .imagem-casa {
+      width: 300px;
+      height: 170px;
+    }
+}
+h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    padding-top: 50px;
+    font-weight: 600;
+    color: rgb(49, 51, 63);
+    letter-spacing: -0.005em;
+    /* padding: 1rem 0px; */
+    margin: 0px;
+    line-height: 1.2;
+}
+h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: rgb(49, 51, 63);
+    letter-spacing: -0.005em;
+    padding: 0.5rem 0px 1rem;
+    margin: 0px;
+    line-height: 1.2;
+    padding-bottom: 0px;
+    margin-top: 20px;
+}
+p {
+    box-sizing: border-box;
+    color: rgb(49, 51, 63);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: justify;
+    text-size-adjust: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+ul {
+    box-sizing: border-box;
+    color: rgb(49, 51, 63);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: justify;
+    text-size-adjust: 100%;    
+}
+
+nav {
+    background-color: #023e84; /* Cor azul clara de fundo */
+    padding: 0px 0; /* Espaço superior e inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 0px; /* Ajuste o valor da margem superior conforme necessário */
+    /* Adicione outros estilos conforme necessário */
+}
+
+nav ul {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Centraliza os itens na horizontal */
+}
+
+nav ul li {
+    display: inline-block; /* Exibe os itens na mesma linha */
+    margin-left: 10px;
+}
+
+nav ul li a {
+    
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px; /* Arredondamento dos cantos */
+    transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+@media (max-width: 650px) {
+
+}
